@@ -1,7 +1,6 @@
-# 作成したMODやツールまとめ
+# 作成したMODやツールまとめ<!-- omit in toc -->
 ---
 
-- [# 作成したMODやツールまとめ](#-作成したmodやツールまとめ)
 - [Beat Saber関係](#beat-saber関係)
   - [GetNearRank系](#getnearrank系)
     - [GetNearRankMod](#getnearrankmod)
