@@ -16,7 +16,7 @@
     - [AccStandardDeviationCounter](#accstandarddeviationcounter)
   - [既存MODの改良版](#既存modの改良版)
     - [CounterPlus-Improved](#counterplus-improved)
-    - [SaberTailoer-Improved](#sabertailoer-improved)
+    - [SaberTailor-Improved](#sabertailor-improved)
     - [SongPlayHistoryContinued-Extended](#songplayhistorycontinued-extended)
     - [EnhancedMissCounter](#enhancedmisscounter)
   - [オリジナルの単発ツール](#オリジナルの単発ツール)
@@ -98,7 +98,7 @@ ScoreCounter,ProgressCounter,CutCounter,MissCounter,NoteCounter,NoteLeftCounter,
 
 ![Counters+](https://github.com/rakkyo150/CounterPlus-Improved/raw/master/Images/Counters%2B.png)
 
-#### [SaberTailoer-Improved](https://github.com/rakkyo150/SaberTailor-Improved)
+#### [SaberTailor-Improved](https://github.com/rakkyo150/SaberTailor-Improved)
 - セイバーの位置と角度とワールドオフセットのより細かな設定が可能に
 - セイバーの位置とワールドオフセットの上限を拡張
 - UIの変更
