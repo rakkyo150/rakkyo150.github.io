@@ -13,15 +13,15 @@
     - [RankedMapData](#rankedmapdata)
   - [カスタムカウンター](#カスタムカウンター)
     - [CenterDistanceCounter](#centerdistancecounter)
-    - [(EnhancedMissCounter)](#enhancedmisscounter)
     - [AccStandardDeviationCounter](#accstandarddeviationcounter)
   - [既存MODの改良版](#既存modの改良版)
     - [CounterPlus-Improved](#counterplus-improved)
     - [SaberTailoer-Improved](#sabertailoer-improved)
     - [SongPlayHistoryContinued-Extended](#songplayhistorycontinued-extended)
-    - [EnhancedMissCounter](#enhancedmisscounter-1)
+    - [EnhancedMissCounter](#enhancedmisscounter)
   - [オリジナルの単発ツール](#オリジナルの単発ツール)
     - [MissCountOnResults](#misscountonresults)
+    - [BeatSaberCustomNotes-NoteTrail](#beatsabercustomnotes-notetrail)
     - [CloseBrowsers](#closebrowsers)
     - [dailypp](#dailypp)
 - [osu!関係](#osu関係)
@@ -82,7 +82,7 @@ csv形式なのでexcelなどで見れます
 
 ![サンプル](https://github.com/rakkyo150/CenterDistanceCounter/raw/master/Images/sample.png)
 
-#### ([EnhancedMissCounter](#enhancedmisscounter-1))
+#### ([EnhancedMissCounter](#enhancedmisscounter-1))<!-- omit in toc -->
 
 #### [AccStandardDeviationCounter](https://github.com/rakkyo150/AccStandardDeviationCounter)
 中心精度の標準偏差を表示するCountersPlusのカスタムカウンター<br>
@@ -114,6 +114,10 @@ ScoreCounter,ProgressCounter,CutCounter,MissCounter,NoteCounter,NoteLeftCounter,
 ![hover2](https://user-images.githubusercontent.com/86054813/132974178-5a64ea43-24ff-45ac-a196-2e17e7749024.png)
 ![max combo](https://user-images.githubusercontent.com/86054813/132974188-2a3af5e4-959f-458c-b985-e471cb67f945.png)
 
+#### ([BetterSongList-PredictStarNumber](#bettersonglist-predictstarnumber))<!-- omit in toc -->
+
+#### ([BeatSaberCustomNotes-NoteTrail](#beatsabercustomnotes-notetrail-1))<!-- omit in toc -->
+
 #### [EnhancedMissCounter](https://github.com/rakkyo150/EnhancedMissCounter)
 - ブルームに対応
 - より細かな位置調整ができます
@@ -129,6 +133,12 @@ ScoreCounter,ProgressCounter,CutCounter,MissCounter,NoteCounter,NoteLeftCounter,
 [SongPlayHistoryContinued-Extended](#SongPlayHistoryContinued-Extended)との連携をしないとミス数の増減は表示されないです
 
 ![スクショ](https://user-images.githubusercontent.com/86054813/133114217-15b24401-343d-4bd2-9ffa-f3381dea164f.jpg)
+
+#### [BeatSaberCustomNotes-NoteTrail](https://github.com/rakkyo150/BeatSaberCustomNotes-NoteTrail)
+ノーツにトレイルを付けることで時間依存性を視覚化しようとしたMOD<br>
+改善方法はあるのだが、CustomeNotes(というよりSiraUtil)の内部処理が変わったのに対応しないといけないのとCustomNotesの改造という形を避けたいという２点のため、改善バージョンはまだ出せていない<br>
+しかも新ノーツまで来てしまった…<br>
+**なんとかしたい**
 
 #### [CloseBrowsers](https://github.com/rakkyo150/CloseBrowsers)
 ゲームプレイ画面移行時にブラウザーを終了させるBeat SaberのMOD<br>
