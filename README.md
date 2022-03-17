@@ -153,4 +153,4 @@ Discordでしか動作確認してないです<br>
 
 ### [Gmail2Discord](https://github.com/rakkyo150/Gmail2Discord)
 定期的に未読のGmailのメールをDiscordに投げるGASのスクリプト<br>
-GASを触ってみたから作った
+GASを触ってみたかったから作った
