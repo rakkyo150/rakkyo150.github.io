@@ -35,6 +35,25 @@
 
 ## Beat Saber関係
 
+はじめに、MODの動作確認をしたBeat Saberのバージョンを表でまとめておきます<br>
+随時更新していきます<br>
+"?"は不明、"〇"は問題なく動く、"△"はすべての動作確認は終わっていないが問題なさそう、"×"は現時点では動かないという意味です<br>
+1.15以前はModに携わっていなかったので、動作するかはすべて不明です
+
+|MOD|1.16|1.17|1.18|1.19|1.20|
+|:--|:--:|:--:|:--:|:--:|:--:|
+|[GetNearRankMod](https://github.com/rakkyo150/GetNearRankMod/releases)|?|?|〇|〇|△|
+|[BetterSongList-PredictStarNumber](https://github.com/rakkyo150/BetterSongList-PredictStarNumber/releases)|?|?|?|〇|×|
+|[CenterDistanceCounter](https://github.com/rakkyo150/CenterDistanceCounter/releases)|〇|〇|〇|〇|〇|
+|[AccStandardDeviationCounter](https://github.com/rakkyo150/AccStandardDeviationCounter/releases)|〇|〇|〇|〇|〇|
+|[CounterPlus-Improved](https://github.com/rakkyo150/CounterPlus-Improved/releases)|〇|〇|〇|〇|×|
+|[SaberTailor-Improved](https://github.com/rakkyo150/SaberTailor-Improved/releases)|〇|〇|〇|〇|△|
+|[SongPlayHistoryContinued-Extended](https://github.com/rakkyo150/SongPlayHistoryContinued-Extended/releases)|?|〇|〇|〇|〇|
+|[EnhancedMissCounter](https://github.com/rakkyo150/EnhancedMissCounter/releases)|?|?|?|〇|〇|
+|[MissCounterOnResults](https://github.com/rakkyo150/MissCountOnResults/releases)|?|〇|〇|〇|△|
+|[BeatSaberCustomNotes-NoteTrail](https://github.com/rakkyo150/BeatSaberCustomNotes-NoteTrail/releases)|?|?|〇|×|×|
+|[CloseBrowsers](https://github.com/rakkyo150/CloseBrowsers/releases)|〇|〇|〇|〇|〇|
+
 ### GetNearRank系
 
 [GetNearRank](https://github.com/culage/GetNearRank)が原案の、順位が近くの人が自分よりPPを多く取ったランク曲を取得してプレイリストにするツール<br>
