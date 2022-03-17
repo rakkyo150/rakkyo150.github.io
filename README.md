@@ -2,6 +2,7 @@
 ---
 
 - [Beat Saber関係](#beat-saber関係)
+  - [MODとBeat Saberのバージョンの対応表](#modとbeat-saberのバージョンの対応表)
   - [GetNearRank系](#getnearrank系)
     - [GetNearRankMod](#getnearrankmod)
     - [GetNearRankScript](#getnearrankscript)
@@ -35,12 +36,14 @@
 
 ## Beat Saber関係
 
-はじめに、MODの動作確認をしたBeat Saberのバージョンを表でまとめておきます<br>
-随時更新していきます<br>
-"?"は不明、"〇"は問題なく動く、"△"はすべての動作確認は終わっていないが問題なさそう、"×"は現時点では動かないという意味です<br>
-1.15以前はModに携わっていなかったので、動作するかはすべて不明です
+### MODとBeat Saberのバージョンの対応表
 
-|MOD|1.16|1.17|1.18|1.19|1.20|
+はじめに、MODの動作確認をしたBeat Saberのバージョンを表でまとめておきます<br>
+対応表は随時更新していきます<br>
+"?"は不明、"〇"は問題なく動く、"△"はすべての動作確認は終わっていないが問題なさそう、"×"は現時点では動かないという意味です<br>
+1.15以前はModに携わっていなかったので、すべてのMODについて動作するかは不明です
+
+|MOD名|1.16|1.17|1.18|1.19|1.20|
 |:--|:--:|:--:|:--:|:--:|:--:|
 |[GetNearRankMod](https://github.com/rakkyo150/GetNearRankMod/releases)|?|?|〇|〇|△|
 |[BetterSongList-PredictStarNumber](https://github.com/rakkyo150/BetterSongList-PredictStarNumber/releases)|?|?|?|〇|×|
