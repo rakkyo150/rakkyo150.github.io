@@ -82,7 +82,7 @@ csv形式なのでexcelなどで見れます
 
 ![サンプル](https://github.com/rakkyo150/CenterDistanceCounter/raw/master/Images/sample.png)
 
-#### ([EnhancedMissCounter](#enhancedmisscounter))
+#### ([EnhancedMissCounter](#enhancedmisscounter-1))
 
 #### [AccStandardDeviationCounter](https://github.com/rakkyo150/AccStandardDeviationCounter)
 中心精度の標準偏差を表示するCountersPlusのカスタムカウンター<br>
