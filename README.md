@@ -45,7 +45,7 @@
 
 |MOD名|1.16|1.17|1.18|1.19|1.20|
 |:--|:--:|:--:|:--:|:--:|:--:|
-|[GetNearRankMod](https://github.com/rakkyo150/GetNearRankMod/releases)|?|?|〇|〇|?|
+|[GetNearRankMod](https://github.com/rakkyo150/GetNearRankMod/releases)|?|?|〇|〇|〇|
 |[BetterSongList-PredictStarNumber](https://github.com/rakkyo150/BetterSongList-PredictStarNumber/releases)|?|?|?|〇|〇|
 |[CenterDistanceCounter](https://github.com/rakkyo150/CenterDistanceCounter/releases)|〇|〇|〇|〇|〇|
 |[AccStandardDeviationCounter](https://github.com/rakkyo150/AccStandardDeviationCounter/releases)|〇|〇|〇|〇|?|
@@ -55,7 +55,7 @@
 |[EnhancedMissCounter](https://github.com/rakkyo150/EnhancedMissCounter/releases)|?|?|?|〇|〇|
 |[MissCountOnResults](https://github.com/rakkyo150/MissCountOnResults/releases)|?|〇|〇|〇|?|
 |[BeatSaberCustomNotes-NoteTrail](https://github.com/rakkyo150/BeatSaberCustomNotes-NoteTrail/releases)|?|?|〇|×|×|
-|[CloseBrowsers](https://github.com/rakkyo150/CloseBrowsers/releases)|〇|〇|〇|〇|?|
+|[CloseBrowsers](https://github.com/rakkyo150/CloseBrowsers/releases)|〇|〇|〇|〇|〇|
 
 ### GetNearRank系
 
