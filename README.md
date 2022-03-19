@@ -51,10 +51,10 @@
 |[AccStandardDeviationCounter](https://github.com/rakkyo150/AccStandardDeviationCounter/releases)|〇|〇|〇|〇|〇|
 |[CounterPlus-Improved](https://github.com/rakkyo150/CounterPlus-Improved/releases)|〇|〇|〇|〇|?<br>依存MODが整えば完璧に動くかも?<br>PracticeModeでは動きます|
 |[SaberTailor-Improved](https://github.com/rakkyo150/SaberTailor-Improved/releases)|〇|〇|〇|〇|〇|
-|[SongPlayHistoryContinued-Extended](https://github.com/rakkyo150/SongPlayHistoryContinued-Extended/releases)|?|〇|〇|〇|×|
+|[SongPlayHistoryContinued-Extended](https://github.com/rakkyo150/SongPlayHistoryContinued-Extended/releases)|?|〇|〇|〇|×<br>オリジナルの更新待ち|
 |[EnhancedMissCounter](https://github.com/rakkyo150/EnhancedMissCounter/releases)|?|?|?|〇|〇|
 |[MissCountOnResults](https://github.com/rakkyo150/MissCountOnResults/releases)|?|〇|〇|〇|SPHの連携以外〇|
-|[BeatSaberCustomNotes-NoteTrail](https://github.com/rakkyo150/BeatSaberCustomNotes-NoteTrail/releases)|?|?|〇|×|×|
+|[BeatSaberCustomNotes-NoteTrail](https://github.com/rakkyo150/BeatSaberCustomNotes-NoteTrail/releases)|?|?|〇|×|×<br>オリジナルの更新待ち|
 |[CloseBrowsers](https://github.com/rakkyo150/CloseBrowsers/releases)|〇|〇|〇|〇|〇|
 
 ### GetNearRank系
