@@ -21,6 +21,7 @@
     - [SongPlayHistoryContinued-Extended](#songplayhistorycontinued-extended)
     - [EnhancedMissCounter](#enhancedmisscounter)
   - [オリジナルの単発ツール](#オリジナルの単発ツール)
+    - [GithubModUpdateCheckerConsole](#githubmodupdatecheckerconsole)
     - [MissCountOnResults](#misscountonresults)
     - [BeatSaberCustomNotes-NoteTrail](#beatsabercustomnotes-notetrail)
     - [CloseBrowsers](#closebrowsers)
@@ -149,6 +150,9 @@ ScoreCounter,ProgressCounter,CutCounter,MissCounter,NoteCounter,NoteLeftCounter,
 ![EnhancedMissCounter](https://pbs.twimg.com/media/FNl6l-4aMAEvNK7?format=jpg&name=small)
 
 ### オリジナルの単発ツール
+
+#### [GithubModUpdateCheckerConsole](https://github.com/rakkyo150/GithubModUpdateCheckerConsole)
+GitHubに上がってるBeat SaberのModのアップデートなどをある程度自動で行うツール
 
 #### [MissCountOnResults](https://github.com/rakkyo150/MissCountOnResults)
 リザルト画面でミス数と最高記録からのミス数の増減を表示するMOD<br>
