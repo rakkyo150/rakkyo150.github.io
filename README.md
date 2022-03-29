@@ -9,6 +9,7 @@
     - [GetNearRankDocker](#getnearrankdocker)
   - [PredicrtStarNumber系](#predicrtstarnumber系)
     - [PredictStarNumber](#predictstarnumber)
+    - [PredictStarNumberExtension](#predictstarnumberextension)
     - [BetterSongList-PredictStarNumber](#bettersonglist-predictstarnumber)
     - [PredictStarNumberHelper](#predictstarnumberhelper)
     - [RankedMapData](#rankedmapdata)
@@ -79,9 +80,12 @@ GetNearRankModもGetNearRankScriptも使えない方用
 ### PredicrtStarNumber系
 アンランクの譜面でもランクになったらどれくらいの星がつくか予測するツール
 
-#### [PredictStarNumber](https://github.com/rakkyo150/GetNearRankScript)
+#### [PredictStarNumber](https://github.com/rakkyo150/PredictStarNumber)
 ブラウザ版<br>
 リンクは[こちら](https://predictstarnumber.herokuapp.com/)
+
+#### [PredictStarNumberExtension](https://github.com/rakkyo150/PredictStarNumberExtension)
+Chrome拡張機能版
 
 #### [BetterSongList-PredictStarNumber](https://github.com/rakkyo150/BetterSongList-PredictStarNumber)
 BetterSongListの改造版で、ゲーム内でも予測結果を見ることができるMOD<br>
