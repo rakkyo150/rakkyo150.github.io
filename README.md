@@ -42,7 +42,7 @@
 
 はじめに、MODの動作確認をしたBeat Saberのバージョンを表でまとめておきます<br>
 対応表は随時更新していきます<br>
-"?"は不明、"〇"は問題なく動く、"△"はすべての動作確認は終わっていないが問題なさそう、"×"は現時点では動かないという意味です<br>
+"?"は不明、"〇"は問題なく動く、"△"は多分問題なさそう、"×"は現時点では動かないという意味です<br>
 1.15以前はModに携わっていなかったので、すべてのMODについて動作するかは不明です
 
 |MOD名|1.16|1.17|1.18|1.19|1.20|1.21|
@@ -53,9 +53,9 @@
 |[AccStandardDeviationCounter](https://github.com/rakkyo150/AccStandardDeviationCounter/releases)|〇|〇|〇|〇|〇|〇|
 |[CounterPlus-Improved](https://github.com/rakkyo150/CounterPlus-Improved/releases)|〇|〇|〇|〇|〇|〇|
 |[SaberTailor-Improved](https://github.com/rakkyo150/SaberTailor-Improved/releases)|〇|〇|〇|〇|〇|〇|
-|[SongPlayHistoryContinued-Extended](https://github.com/rakkyo150/SongPlayHistoryContinued-Extended/releases)|?|〇|〇|〇|×<br>オリジナルの更新待ち|×<br>本家にプルリクが来てたのでもう少し|
+|[SongPlayHistoryContinued-Extended](https://github.com/rakkyo150/SongPlayHistoryContinued-Extended/releases)|?|〇|〇|〇|△|〇|
 |[EnhancedMissCounter](https://github.com/rakkyo150/EnhancedMissCounter/releases)|?|?|?|〇|〇|〇|
-|[MissCountOnResults](https://github.com/rakkyo150/MissCountOnResults/releases)|?|〇|〇|〇|〇SPHの連携以外|左に同じ|
+|[MissCountOnResults](https://github.com/rakkyo150/MissCountOnResults/releases)|?|〇|〇|〇|△|〇|
 |[BeatSaberCustomNotes-NoteTrail](https://github.com/rakkyo150/BeatSaberCustomNotes-NoteTrail/releases)|?|?|〇|×|×|×|
 |[CloseBrowsers](https://github.com/rakkyo150/CloseBrowsers/releases)|〇|〇|〇|〇|〇|〇|
 
