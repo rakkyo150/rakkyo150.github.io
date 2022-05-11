@@ -34,8 +34,6 @@
 
 ---
 
-(太字は自分用の覚書も兼ねています)
-
 ## Beat Saber関係
 
 ### MODとBeat Saberのバージョンの対応表
@@ -66,7 +64,7 @@ ScoreSaberの公式APIが実装されたのをきっかけに作成<br>
 日本ランクでのみ動作<br>
 
 #### [GetNearRankMod](https://github.com/rakkyo150/GetNearRankMod)
-Steamでプレイしている方用
+PCModを使用できる方用
 
 ![スクリーンショット 2021-10-15 022423](https://user-images.githubusercontent.com/86054813/137366553-a565529a-0d47-4335-a632-029e226efcd6.png)
 
@@ -89,14 +87,12 @@ Chrome拡張機能版
 
 #### [BetterSongList-PredictStarNumber](https://github.com/rakkyo150/BetterSongList-PredictStarNumber)
 BetterSongListの改造版で、ゲーム内でも予測結果を見ることができるMOD<br>
-**BetterSongListを改造するのではなく、BetterSongListに依存するMODとして機能を引き剥がしたMODにしていきたい**
 
 ![スクリーンショット2](https://user-images.githubusercontent.com/86054813/149370978-b97d82a1-ac4a-4268-93e2-817752d37ee0.png)
 
 #### [PredictStarNumberHelper](https://github.com/rakkyo150/PredictStarNumberHelper)
 PredictStarNumberの予測のための学習済みモデルを定期的に作成しています<br>
 おまけでデータの簡単な解析結果も作成しています<br>
-**改善点有り**
 
 #### [RankedMapData](https://github.com/rakkyo150/RankedMapData)
 PredictStarNumberHelperの学習のためのデータを定期的に更新しています<br>
@@ -128,8 +124,6 @@ ScoreCounter,ProgressCounter,CutCounter,MissCounter,NoteCounter,NoteLeftCounter,
 - セイバーの位置と角度とワールドオフセットのより細かな設定が可能に
 - セイバーの位置とワールドオフセットの上限を拡張
 - UIの変更
-
-**調整をボタン付きスライダーにしたい**
 
 ![SaberTailer](https://github.com/rakkyo150/SaberTailor-Improved/raw/master/Images/process5.png)
 
@@ -165,9 +159,6 @@ GitHubに上がってるBeat SaberのModのアップデートなどをある程�
 
 #### [BeatSaberCustomNotes-NoteTrail](https://github.com/rakkyo150/BeatSaberCustomNotes-NoteTrail)
 ノーツにトレイルを付けることで時間依存性を視覚化しようとしたMOD<br>
-改善方法はあるのだが、CustomeNotes(というよりSiraUtil)の内部処理が変わったのに対応しないといけないのとCustomNotesの改造という形を避けたいという２点のため、改善バージョンはまだ出せていない<br>
-しかも新ノーツまで来てしまった…<br>
-**なんとかしたい**
 
 #### [CloseBrowsers](https://github.com/rakkyo150/CloseBrowsers)
 ゲームプレイ画面移行時にブラウザーを終了させるBeat SaberのMOD<br>
@@ -186,7 +177,6 @@ GitHubに上がってるBeat SaberのModのアップデートなどをある程�
 ### [OsuNewBeatmapPackNotification2Discord](https://github.com/rakkyo150/OsuNewBeatmapPackNotification2Discord)
 osu!stdのビートマップパックの更新があったらwebhookに通知を投げるやつ<br>
 Discordでしか動作確認してないです<br>
-**リンクの取得に失敗するときがあるので、そのときは取得出来次第もう一度通知をwebhookに投げるようにしたい**
 
 ## その他ツール
 
