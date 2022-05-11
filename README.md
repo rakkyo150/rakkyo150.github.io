@@ -121,7 +121,6 @@ csv形式なのでexcelなどで見れます
 
 #### [CounterPlus-Improved](https://github.com/rakkyo150/CounterPlus-Improved)
 ScoreCounter,ProgressCounter,CutCounter,MissCounter,NoteCounter,NoteLeftCounter,SpeedCounterにおいて、任意の閾値ごとに任意の色を付けることができるようにしたもの<br>
-**1.20.0用は謎エラーでビルドできないんだが??**
 
 ![Counters+](https://github.com/rakkyo150/CounterPlus-Improved/raw/master/Images/Counters%2B.png)
 
