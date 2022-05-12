@@ -23,6 +23,7 @@
     - [EnhancedMissCounter](#enhancedmisscounter)
   - [オリジナルの単発ツール](#オリジナルの単発ツール)
     - [GithubModUpdateCheckerConsole](#githubmodupdatecheckerconsole)
+    - [ConfirmPlaylistDifficulty](#confirmplaylistdifficulty)
     - [MissCountOnResults](#misscountonresults)
     - [BeatSaberCustomNotes-NoteTrail](#beatsabercustomnotes-notetrail)
     - [CloseBrowsers](#closebrowsers)
@@ -150,6 +151,11 @@ ScoreCounter,ProgressCounter,CutCounter,MissCounter,NoteCounter,NoteLeftCounter,
 
 #### [GithubModUpdateCheckerConsole](https://github.com/rakkyo150/GithubModUpdateCheckerConsole)
 GitHubに上がってるBeat SaberのModのアップデートなどをある程度自動で行うツール
+
+#### [ConfirmPlaylistDifficulty](https://github.com/rakkyo150/ConfirmPlaylistDifficulty)
+プレイリストが指定している難易度を選んでいるかどうかをプレイボタンの色で判断できるようになるMod
+
+![Gif](https://github.com/rakkyo150/ConfirmPlaylistDifficulty/blob/master/Gif/ConfirmPlaylistDifficulty.gif)
 
 #### [MissCountOnResults](https://github.com/rakkyo150/MissCountOnResults)
 リザルト画面でミス数と最高記録からのミス数の増減を表示するMOD<br>
