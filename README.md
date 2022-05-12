@@ -7,7 +7,7 @@
     - [GetNearRankMod](#getnearrankmod)
     - [GetNearRankScript](#getnearrankscript)
     - [GetNearRankDocker](#getnearrankdocker)
-  - [PredicrtStarNumber系](#predicrtstarnumber系)
+  - [PredictStarNumber系](#predictstarnumber系)
     - [PredictStarNumber](#predictstarnumber)
     - [PredictStarNumberExtension](#predictstarnumberextension)
     - [BetterSongList-PredictStarNumber](#bettersonglist-predictstarnumber)
@@ -76,7 +76,7 @@ GetNearRankModが使えない環境の方で、WindowsかMacをもっている�
 #### [GetNearRankDocker](https://github.com/rakkyo150/GetNearRankDocker)
 GetNearRankModもGetNearRankScriptも使えない方用
 
-### PredicrtStarNumber系
+### PredictStarNumber系
 アンランクの譜面でもランクになったらどれくらいの星がつくか予測するツール
 
 #### [PredictStarNumber](https://github.com/rakkyo150/PredictStarNumber)
