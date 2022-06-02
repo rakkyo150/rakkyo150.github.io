@@ -13,6 +13,9 @@
     - [BetterSongList-PredictStarNumber](#bettersonglist-predictstarnumber)
     - [PredictStarNumberHelper](#predictstarnumberhelper)
     - [RankedMapData](#rankedmapdata)
+  - [Mod管理系ツール](#mod管理系ツール)
+    - [BSModManager](#bsmodmanager)
+    - [GithubModUpdateCheckerConsole](#githubmodupdatecheckerconsole)
   - [カスタムカウンター](#カスタムカウンター)
     - [CenterDistanceCounter](#centerdistancecounter)
     - [AccStandardDeviationCounter](#accstandarddeviationcounter)
@@ -22,7 +25,6 @@
     - [SongPlayHistoryContinued-Extended](#songplayhistorycontinued-extended)
     - [EnhancedMissCounter](#enhancedmisscounter)
   - [オリジナルの単発ツール](#オリジナルの単発ツール)
-    - [GithubModUpdateCheckerConsole](#githubmodupdatecheckerconsole)
     - [ConfirmPlaylistDifficulty](#confirmplaylistdifficulty)
     - [MissCountOnResults](#misscountonresults)
     - [BeatSaberCustomNotes-NoteTrail](#beatsabercustomnotes-notetrail)
@@ -100,6 +102,17 @@ PredictStarNumberの予測のための学習済みモデルを定期的に作成
 PredictStarNumberHelperの学習のためのデータを定期的に更新しています<br>
 csv形式なのでexcelなどで見れます
 
+### Mod管理系ツール
+
+#### [BSModManager](https://github.com/rakkyo150/BSModManager)
+ModAssistantで管理できないBeat SaberのModを管理するツール
+
+![BSModManager](https://user-images.githubusercontent.com/86054813/170963389-e70e6757-a9f7-4b73-a375-c64ede837aa0.png)
+
+#### [GithubModUpdateCheckerConsole](https://github.com/rakkyo150/GithubModUpdateCheckerConsole)
+GitHubに上がってるBeat SaberのModのアップデートなどをある程度自動で行うツール<br>
+[BSModManager](#bsmodmanager)の前身
+
 ### カスタムカウンター
 
 #### [CenterDistanceCounter](https://github.com/rakkyo150/CenterDistanceCounter)
@@ -149,9 +162,6 @@ ScoreCounter,ProgressCounter,CutCounter,MissCounter,NoteCounter,NoteLeftCounter,
 ![EnhancedMissCounter](https://pbs.twimg.com/media/FNl6l-4aMAEvNK7?format=jpg&name=small)
 
 ### オリジナルの単発ツール
-
-#### [GithubModUpdateCheckerConsole](https://github.com/rakkyo150/GithubModUpdateCheckerConsole)
-GitHubに上がってるBeat SaberのModのアップデートなどをある程度自動で行うツール
 
 #### [ConfirmPlaylistDifficulty](https://github.com/rakkyo150/ConfirmPlaylistDifficulty)
 プレイリストが指定している難易度を選んでいるかどうかをプレイボタンの色で判断できるようになるMod
