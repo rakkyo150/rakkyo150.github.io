@@ -18,6 +18,7 @@
     - [GithubModUpdateCheckerConsole](#githubmodupdatecheckerconsole)
   - [カスタムカウンター](#カスタムカウンター)
     - [CenterDistanceCounter](#centerdistancecounter)
+    - [YokoNotesTokaYurusenaiCounter](#yokonotestokayurusenaicounter)
     - [AccStandardDeviationCounter](#accstandarddeviationcounter)
   - [既存MODの改良版](#既存modの改良版)
     - [CounterPlus-Improved](#counterplus-improved)
@@ -46,20 +47,21 @@
 "?"は不明、"〇"は問題なく動く、"△"は多分問題なさそう、"×"は現時点では動かないという意味です<br>
 1.15以前はModに携わっていなかったので、すべてのMODについて動作するかは不明です
 
-|MOD名|1.16|1.17|1.18|1.19|1.20|1.21|1.22|
-|:--|:--:|:--:|:--:|:--:|:--:|:--:|:---:|
-|[GetNearRankMod](https://github.com/rakkyo150/GetNearRankMod/releases)|?|?|〇|〇|〇|〇|〇|
-|[BetterSongList-PredictStarNumber](https://github.com/rakkyo150/BetterSongList-PredictStarNumber/releases)|?|?|?|〇|〇|〇|〇|
-|[CenterDistanceCounter](https://github.com/rakkyo150/CenterDistanceCounter/releases)|〇|〇|〇|〇|〇|〇|〇|
-|[AccStandardDeviationCounter](https://github.com/rakkyo150/AccStandardDeviationCounter/releases)|〇|〇|〇|〇|〇|〇|〇|
-|[CounterPlus-Improved](https://github.com/rakkyo150/CounterPlus-Improved/releases)|〇|〇|〇|〇|〇|〇|〇|
-|[SaberTailor-Improved](https://github.com/rakkyo150/SaberTailor-Improved/releases)|〇|〇|〇|〇|〇|〇|〇|
-|[SongPlayHistoryContinued-Extended](https://github.com/rakkyo150/SongPlayHistoryContinued-Extended/releases)|?|〇|〇|〇|△|〇|〇|
-|[EnhancedMissCounter](https://github.com/rakkyo150/EnhancedMissCounter/releases)|?|?|?|〇|〇|〇|〇|
-|[ConfirmPlaylistDifficulty](https://github.com/rakkyo150/ConfirmPlaylistDifficulty)|?|?|?|?|?|〇|〇|
-|[MissCountOnResults](https://github.com/rakkyo150/MissCountOnResults/releases)|?|〇|〇|〇|△|〇|〇|
-|[BeatSaberCustomNotes-NoteTrail](https://github.com/rakkyo150/BeatSaberCustomNotes-NoteTrail/releases)|?|?|〇|×|×|×|×|
-|[CloseBrowsers](https://github.com/rakkyo150/CloseBrowsers/releases)|〇|〇|〇|〇|〇|〇|〇|
+|MOD名|1.16|1.17|1.18|1.19|1.20|1.21|1.22|1.23|
+|:--|:--:|:--:|:--:|:--:|:--:|:--:|:---:|:---:|
+|[GetNearRankMod](https://github.com/rakkyo150/GetNearRankMod/releases)|?|?|〇|〇|〇|〇|〇|〇|
+|[BetterSongList-PredictStarNumber](https://github.com/rakkyo150/BetterSongList-PredictStarNumber/releases)|?|?|?|〇|〇|〇|〇|〇|
+|[CenterDistanceCounter](https://github.com/rakkyo150/CenterDistanceCounter/releases)|〇|〇|〇|〇|〇|〇|〇|〇|
+|[YokoNotesTokaYurusenaiCounter](https://github.com/rakkyo150/YokoNotesTokaYurusenaiCounter)|?|?|?|?|?|?|〇|〇|
+|[AccStandardDeviationCounter](https://github.com/rakkyo150/AccStandardDeviationCounter/releases)|〇|〇|〇|〇|〇|〇|〇|〇|
+|[CounterPlus-Improved](https://github.com/rakkyo150/CounterPlus-Improved/releases)|〇|〇|〇|〇|〇|〇|〇|〇|
+|[SaberTailor-Improved](https://github.com/rakkyo150/SaberTailor-Improved/releases)|〇|〇|〇|〇|〇|〇|〇|〇|
+|[SongPlayHistoryContinued-Extended](https://github.com/rakkyo150/SongPlayHistoryContinued-Extended/releases)|?|〇|〇|〇|△|〇|〇|〇|
+|[EnhancedMissCounter](https://github.com/rakkyo150/EnhancedMissCounter/releases)|?|?|?|〇|〇|〇|〇|〇|
+|[ConfirmPlaylistDifficulty](https://github.com/rakkyo150/ConfirmPlaylistDifficulty)|?|?|?|?|?|〇|〇|〇|
+|[MissCountOnResults](https://github.com/rakkyo150/MissCountOnResults/releases)|?|〇|〇|〇|△|〇|〇|〇|
+|[BeatSaberCustomNotes-NoteTrail](https://github.com/rakkyo150/BeatSaberCustomNotes-NoteTrail/releases)|?|?|〇|×|×|×|×|×|
+|[CloseBrowsers](https://github.com/rakkyo150/CloseBrowsers/releases)|〇|〇|〇|〇|〇|〇|〇|〇|
 
 ### GetNearRank系
 
@@ -121,6 +123,10 @@ GitHubに上がってるBeat SaberのModのアップデートなどをある程�
 ![サンプル](https://github.com/rakkyo150/CenterDistanceCounter/raw/master/Images/sample.png)
 
 #### ([EnhancedMissCounter](#enhancedmisscounter-1))<!-- omit in toc -->
+
+#### [YokoNotesTokaYurusenaiCounter](https://github.com/rakkyo150/YokoNotesTokaYurusenaiCounter)
+横ノーツでミスした回数やボムを切った回数を表するカスタムカウンター<br>
+![YokoNotesTokaYurusenaiCounter](https://user-images.githubusercontent.com/86054813/172263444-a076ca25-ca5e-4d12-acaf-5b994c91d0c9.png)
 
 #### [AccStandardDeviationCounter](https://github.com/rakkyo150/AccStandardDeviationCounter)
 中心精度の標準偏差を表示するCountersPlusのカスタムカウンター<br>
