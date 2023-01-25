@@ -1,9 +1,11 @@
 # 作成したMODやツールまとめ<!-- omit in toc -->
 
+## 開発予定リスト<!-- omit in toc -->
+[こちら](https://github.com/users/rakkyo150/projects/2)で今後やっていきたいことをリストアップしています
+
 ---
 
 - [Beat Saber関係](#beat-saber関係)
-  - [MODとBeat Saberのバージョンの対応表](#modとbeat-saberのバージョンの対応表)
   - [GetNearRank系](#getnearrank系)
     - [GetNearRankMod](#getnearrankmod)
     - [GetNearRankScript](#getnearrankscript)
@@ -12,12 +14,10 @@
     - [PredictStarNumber](#predictstarnumber)
     - [PredictStarNumberMod](#predictstarnumbermod)
     - [PredictStarNumberExtension](#predictstarnumberextension)
-    - [BetterSongList-PredictStarNumber](#bettersonglist-predictstarnumber)
     - [PredictStarNumberHelper](#predictstarnumberhelper)
     - [RankedMapData](#rankedmapdata)
   - [Mod管理系ツール](#mod管理系ツール)
     - [BSModManager](#bsmodmanager)
-    - [GithubModUpdateCheckerConsole](#githubmodupdatecheckerconsole)
   - [カスタムカウンター](#カスタムカウンター)
     - [CenterDistanceCounter](#centerdistancecounter)
     - [YokoNotesTokaYurusenaiCounter](#yokonotestokayurusenaicounter)
@@ -26,12 +26,13 @@
     - [CounterPlus-Improved](#counterplus-improved)
     - [SaberTailor-Improved](#sabertailor-improved)
     - [SongPlayHistoryContinued-Extended](#songplayhistorycontinued-extended)
-    - [EnhancedMissCounter](#enhancedmisscounter)
+    - [EnhancedMissCounter](#enhancedmisscounter-1)
   - [オリジナルの単発ツール](#オリジナルの単発ツール)
     - [ConfirmPlaylistDifficulty](#confirmplaylistdifficulty)
     - [MissCountOnResults](#misscountonresults)
     - [BeatSaverSearchPlaylistCreator](#beatsaversearchplaylistcreator)
-    - [BeatSaberCustomNotes-NoteTrail](#beatsabercustomnotes-notetrail)
+    - [NotifySSRankChanged](#notifyssrankchanged)
+    - [BeatSaberCustomNotes-NoteTrail](#beatsabercustomnotes-notetrail-1)
     - [CloseBrowsers](#closebrowsers)
     - [dailypp](#dailypp)
 - [osu!関係](#osu関係)
@@ -42,30 +43,6 @@
 ---
 
 ## Beat Saber関係
-
-### MODとBeat Saberのバージョンの対応表
-
-はじめに、MODの動作確認をしたBeat Saberのバージョンを表でまとめておきます<br>
-対応表は随時更新していきます<br>
-"?"は不明、"〇"は問題なく動く、"△"は多分問題なさそう、"×"は現時点では動かないという意味です<br>
-1.15以前はModに携わっていなかったので、すべてのMODについて動作するかは不明です
-
-|MOD名|1.16|1.17|1.18|1.19|1.20|1.21|1.22|1.23|1.24|
-|:--|:--:|:--:|:--:|:--:|:--:|:--:|:---:|:---:|:---:|
-|[GetNearRankMod](https://github.com/rakkyo150/GetNearRankMod/releases)|?|?|〇|〇|〇|〇|〇|〇|〇|
-|[PredictStarNumberMod](https://github.com/rakkyo150/PredictStarNumberMod/releases)|?|?|?|△|△|△|△|△|〇|
-|~~[BetterSongList-PredictStarNumber](https://github.com/rakkyo150/BetterSongList-PredictStarNumber/releases)~~|?|?|?|〇|〇|〇|〇|〇|〇|
-|[CenterDistanceCounter](https://github.com/rakkyo150/CenterDistanceCounter/releases)|〇|〇|〇|〇|〇|〇|〇|〇|〇|
-|[YokoNotesTokaYurusenaiCounter](https://github.com/rakkyo150/YokoNotesTokaYurusenaiCounter)|?|?|?|?|?|?|〇|〇|〇|
-|[AccStandardDeviationCounter](https://github.com/rakkyo150/AccStandardDeviationCounter/releases)|〇|〇|〇|〇|〇|〇|〇|〇|△|
-|[CounterPlus-Improved](https://github.com/rakkyo150/CounterPlus-Improved/releases)|〇|〇|〇|〇|〇|〇|〇|〇|〇|
-|[SaberTailor-Improved](https://github.com/rakkyo150/SaberTailor-Improved/releases)|〇|〇|〇|〇|〇|〇|〇|〇|△|
-|[SongPlayHistoryContinued-Extended](https://github.com/rakkyo150/SongPlayHistoryContinued-Extended/releases)|?|〇|〇|〇|△|〇|〇|〇|〇|
-|[EnhancedMissCounter](https://github.com/rakkyo150/EnhancedMissCounter/releases)|?|?|?|〇|〇|〇|〇|〇|〇|
-|[ConfirmPlaylistDifficulty](https://github.com/rakkyo150/ConfirmPlaylistDifficulty)|?|?|?|?|?|〇|〇|〇|〇|
-|[MissCountOnResults](https://github.com/rakkyo150/MissCountOnResults/releases)|?|〇|〇|〇|△|〇|〇|〇|△|
-|[BeatSaberCustomNotes-NoteTrail](https://github.com/rakkyo150/BeatSaberCustomNotes-NoteTrail/releases)|?|?|〇|×|×|×|×|×|×|
-|[CloseBrowsers](https://github.com/rakkyo150/CloseBrowsers/releases)|〇|〇|〇|〇|〇|〇|〇|〇|〇|
 
 ### GetNearRank系
 
@@ -94,7 +71,7 @@ GetNearRankModもGetNearRankScriptも使えない方用
 #### [PredictStarNumber](https://github.com/rakkyo150/PredictStarNumber)
 
 ブラウザ版<br>
-リンクは[こちら](https://predictstarnumber.herokuapp.com/)
+リンクは[こちら](https://predictstarnumber.onrender.com)
 
 #### [PredictStarNumberMod](https://github.com/rakkyo150/PredictStarNumberMod)
 
@@ -106,11 +83,6 @@ Mod版<br>
 #### [PredictStarNumberExtension](https://github.com/rakkyo150/PredictStarNumberExtension)
 
 Chrome拡張機能版
-
-#### [BetterSongList-PredictStarNumber](https://github.com/rakkyo150/BetterSongList-PredictStarNumber)
-
-**[PredictStarNumberMod](#predictstarnumbermod)を使用してください**
-BetterSongListの改造版で、ゲーム内でも予測結果を見ることができるMOD<br>
 
 ![スクリーンショット2](https://user-images.githubusercontent.com/86054813/149370978-b97d82a1-ac4a-4268-93e2-817752d37ee0.png)
 
@@ -131,11 +103,6 @@ csv形式なのでexcelなどで見れます
 ModAssistantで管理できないBeat SaberのModを管理するツール
 
 ![BSModManager](https://user-images.githubusercontent.com/86054813/170963389-e70e6757-a9f7-4b73-a375-c64ede837aa0.png)
-
-#### [GithubModUpdateCheckerConsole](https://github.com/rakkyo150/GithubModUpdateCheckerConsole)
-
-GitHubに上がってるBeat SaberのModのアップデートなどをある程度自動で行うツール<br>
-[BSModManager](#bsmodmanager)の前身
 
 ### カスタムカウンター
 
@@ -216,6 +183,10 @@ ScoreCounter,ProgressCounter,CutCounter,MissCounter,NoteCounter,NoteLeftCounter,
 BeatSaverでの検索結果をプレイリストにするGoogle Chromeの拡張機能<br>
 
 ![description](https://user-images.githubusercontent.com/86054813/189758107-60e05119-9d61-4807-9aef-6f8898aa34c0.png)
+
+#### [NotifySSRankChanged](https://github.com/rakkyo150/NotifySSRankChanged)
+
+ScoreSaberの順位が変動した時にiOSで通知を出すスクリプト。<br>
 
 #### [BeatSaberCustomNotes-NoteTrail](https://github.com/rakkyo150/BeatSaberCustomNotes-NoteTrail)
 
