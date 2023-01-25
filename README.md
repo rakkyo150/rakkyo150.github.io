@@ -34,7 +34,6 @@
     - [NotifySSRankChanged](#notifyssrankchanged)
     - [BeatSaberCustomNotes-NoteTrail](#beatsabercustomnotes-notetrail-1)
     - [CloseBrowsers](#closebrowsers)
-    - [dailypp](#dailypp)
 - [osu!関係](#osu関係)
   - [OsuNewBeatmapPackNotification2Discord](#osunewbeatmappacknotification2discord)
 - [その他ツール](#その他ツール)
@@ -196,14 +195,6 @@ ScoreSaberの順位が変動した時にiOSで通知を出すスクリプト。<
 
 ゲームプレイ画面移行時にブラウザーを終了させるBeat SaberのMOD<br>
 ブラウザー消し忘れてプチフリとか起こしたことある人は導入してみるといいかも
-
-#### [dailypp](https://github.com/rakkyo150/dailypp)
-
-スコアセイバーアカウントの情報を24:00に毎日投稿するTwitterのBotでした<br>
-もともとWebAPIを触ってみたかったのが作成の主な理由だったので、ScoreSaberがAPIを導入してからAPIに対応させていません<br>
-ということで、**今は稼働していないです**
-
-![dailypp](https://user-images.githubusercontent.com/86054813/126014296-f4f4d666-74af-455f-80e6-1fcb8462273e.png)
 
 ## osu!関係
 
