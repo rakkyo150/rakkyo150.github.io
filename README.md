@@ -71,14 +71,8 @@ GetNearRankModもGetNearRankScriptも使えない方用
 アンランクの譜面でもランクになったらどれくらいの星がつくか予測するツール
 
 それぞれの関係性は以下の通り
-```mermaid
-flowchart
-    First(RankedMapData) -- Training Data --> Second(PredictStarNumberHelper)
-    Second -- Learned Model --> Third(PredictStarNumber)
-    Second -- Learned Model --> PredictStarNumberMod
-    Second -- Learned Model --> maybe-overrated-underrated-map-playlist
-    Third <-- REST API --> PredictStarNumberExtension
-```
+
+![mermaid](mermaid.png)
 
 #### [PredictStarNumber](https://github.com/rakkyo150/PredictStarNumber)
 
