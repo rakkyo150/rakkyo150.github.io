@@ -14,9 +14,10 @@
     - [PredictStarNumber](#predictstarnumber)
     - [PredictStarNumberMod](#predictstarnumbermod)
     - [PredictStarNumberExtension](#predictstarnumberextension)
+    - [maybe-overrated-underrated-map-playlist](#maybe-overrated-underrated-map-playlist)
     - [PredictStarNumberHelper](#predictstarnumberhelper)
     - [RankedMapData](#rankedmapdata)
-  - [Mod管理系ツール](#mod管理系ツール)
+  - [Mod管理ツール](#mod管理ツール)
     - [BSModManager](#bsmodmanager)
   - [カスタムカウンター](#カスタムカウンター)
     - [CenterDistanceCounter](#centerdistancecounter)
@@ -26,7 +27,7 @@
     - [CounterPlus-Improved](#counterplus-improved)
     - [SaberTailor-Improved](#sabertailor-improved)
     - [SongPlayHistoryContinued-Extended](#songplayhistorycontinued-extended)
-    - [EnhancedMissCounter](#enhancedmisscounter-1)
+    - [BetterMissCounter](#bettermisscounter)
   - [オリジナルの単発ツール](#オリジナルの単発ツール)
     - [ConfirmPlaylistDifficulty](#confirmplaylistdifficulty)
     - [MissCountOnResults](#misscountonresults)
@@ -38,6 +39,8 @@
   - [OsuNewBeatmapPackNotification2Discord](#osunewbeatmappacknotification2discord)
 - [その他ツール](#その他ツール)
   - [Gmail2Discord](#gmail2discord)
+  - [uc\_co2s\_server](#uc_co2s_server)
+  - [ud\_co2s\_viewer](#ud_co2s_viewer)
 
 ---
 
@@ -73,6 +76,7 @@ flowchart
     First(RankedMapData) -- Training Data --> Second(PredictStarNumberHelper)
     Second -- Learned Model --> Third(PredictStarNumber)
     Second -- Learned Model --> PredictStarNumberMod
+    Second -- Learned Model --> maybe-overrated-underrated-map-playlist
     Third <-- REST API --> PredictStarNumberExtension
 ```
 
@@ -92,7 +96,9 @@ Mod版<br>
 
 Chrome拡張機能版
 
-![スクリーンショット2](https://user-images.githubusercontent.com/86054813/149370978-b97d82a1-ac4a-4268-93e2-817752d37ee0.png)
+#### [maybe-overrated-underrated-map-playlist](https://github.com/rakkyo150/maybe-overrated-underrated-map-playlist)
+
+PredictStarNumberによる星予測と実際の星予測の差ごとのプレイリストを作成しています
 
 #### [PredictStarNumberHelper](https://github.com/rakkyo150/PredictStarNumberHelper)
 
@@ -104,7 +110,7 @@ PredictStarNumberの予測のための学習済みモデルを定期的に作成
 PredictStarNumberHelperの学習のためのデータを定期的に更新しています<br>
 csv形式なのでexcelなどで見れます
 
-### Mod管理系ツール
+### Mod管理ツール
 
 #### [BSModManager](https://github.com/rakkyo150/BSModManager)
 
@@ -162,7 +168,9 @@ ScoreCounter,ProgressCounter,CutCounter,MissCounter,NoteCounter,NoteLeftCounter,
 
 #### ([BeatSaberCustomNotes-NoteTrail](#beatsabercustomnotes-notetrail-1))<!-- omit in toc -->
 
-#### [EnhancedMissCounter](https://github.com/rakkyo150/EnhancedMissCounter)
+#### [BetterMissCounter](https://github.com/rakkyo150/EnhancedMissCounter)
+
+旧EnhancedMissCounterの改良版
 
 - ブルームに対応
 - より細かな位置調整ができます
@@ -218,3 +226,13 @@ Discordでしか動作確認してないです<br>
 
 定期的に未読のGmailのメールをDiscordに投げるGASのスクリプト<br>
 GASを触ってみたかったから作った
+
+### [uc_co2s_server](https://github.com/rakkyo150/ud_co2s_server)
+
+UD-CO2Sをラズパイに接続したときに、CO2濃度と温度と湿度を返すローカルのAPIサーバーを立てるプログラム。
+
+### [ud_co2s_viewer](https://github.com/rakkyo150/ud_co2s_viewer)
+
+ud_co2s_serverとともに使うことで酸素濃度が分かります。
+
+![example.png](https://github.com/rakkyo150/ud_co2s_viewer/blob/main/example.png?raw=true)
