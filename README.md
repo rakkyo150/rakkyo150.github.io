@@ -130,7 +130,7 @@ ModAssistantで管理できないBeat SaberのModを管理するツール
 
 #### [YokoNotesTokaYurusenaiCounter](https://github.com/rakkyo150/YokoNotesTokaYurusenaiCounter)
 
-横ノーツでミスした回数やボムを切った回数を表するカスタムカウンター<br>
+横ノーツでミスした回数、ボムを切った回数、壁にめり込んだ回数と時間を表示するカスタムカウンター<br>
 ![YokoNotesTokaYurusenaiCounter](https://user-images.githubusercontent.com/86054813/208406697-bc5bc538-7c87-4b2f-b762-14d1b071957a.png)
 
 #### [AccStandardDeviationCounter](https://github.com/rakkyo150/AccStandardDeviationCounter)
