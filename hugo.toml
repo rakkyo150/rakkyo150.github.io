@@ -1,0 +1,19 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'ja'
+title = 'rakkyo150のMod・ツールまとめ'
+theme = "blowfish"
+
+[params]
+  colorScheme = "fire"
+
+[params.author]
+  name = "rakkyo150"
+  headline = "色々開発している人"
+  links = [
+    { x-twitter = "https://x.com/rakkyo150" },
+    { github = "https://github.com/rakkyo150"}
+  ]
+
+[params.article]
+showTableOfContents = true
+relatedContentLimit = 10

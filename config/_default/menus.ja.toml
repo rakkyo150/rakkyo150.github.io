@@ -1,0 +1,36 @@
+[[main]]
+  name = "対応表"
+  pageRef = "compatible_table"
+  weight = 10
+
+[[main]]
+  name = "制作物"
+  pageRef = "production"
+  weight = 15
+
+[[main]]
+  identifier = "twitter"
+  pre = "x-twitter"
+  url = "https://twitter.com/rakkyo150"
+  weight = 200
+
+[[main]]
+  identifier = "github"
+  pre = "github"
+  url = "https://github.com/rakkyo150"
+  weight = 400
+
+[[subnavigation]]
+  name = "Mod"
+  pageRef = "tags/mod"
+  weight = 10
+
+[[subnavigation]]
+  name = "ツール"
+  pageRef = "tags/tool"
+  weight = 20
+
+[[footer]]
+  name = "タグ"
+  pageRef = "tags"
+  weight = 10
