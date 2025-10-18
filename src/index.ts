@@ -1,4 +1,5 @@
 interface Env {
+  ASSETS: Fetcher;
 	GITHUB_CLIENT_ID: string;
 	GITHUB_CLIENT_SECRET: string;
 }
@@ -71,7 +72,6 @@ const handleCallback = async(url: URL, env: Env) => {
 
 export default {
 	async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
-		console.log("test");
     const url = new URL(request.url);
 		if (url.pathname.startsWith('/auth')) {
 			return handleAuth(url, env);
@@ -79,6 +79,13 @@ export default {
 		if (url.pathname.startsWith('/callback')) {
 			return handleCallback(url, env);
 		}
-		return new Response('Hello');
+    if (url.pathname.endsWith('/robots.txt')) {
+      return new Response( `User-agent: *\nDisallow: /`, {
+        headers: {
+          'Content-Type': 'text/plain',
+        }
+      })
+    }
+    return env.ASSETS.fetch(request);
 	},
 };

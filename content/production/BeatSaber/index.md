@@ -24,7 +24,7 @@ GetNearRankModが使えない環境の方で、WindowsかMacをもっている�
 
 {{< github repo="rakkyo150/GetNearRankScript" showThumbnail=false >}}
 
-### [GetNearRankDocker](https://github.com/rakkyo150/GetNearRankDocker)
+### GetNearRankDocker
 
 GetNearRankModもGetNearRankScriptも使えない方用
 
@@ -133,7 +133,7 @@ ModAssistantで管理できないBeat SaberのModを管理するツール
 
 ## 既存MODの改良版
 
-### [CounterPlus-Improved](https://github.com/rakkyo150/CounterPlus-Improved)
+### CounterPlus-Improved
 
 ScoreCounter,ProgressCounter,CutCounter,MissCounter,NoteCounter,NoteLeftCounter,SpeedCounterにおいて、任意の閾値ごとに任意の色を付けることができるようにしたもの  
 

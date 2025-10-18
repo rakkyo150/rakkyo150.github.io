@@ -3,6 +3,7 @@ languageCode = 'ja'
 title = 'rakkyo150のMod・ツールまとめ'
 theme = "blowfish"
 logo = "logo.png"
+enableRobotsTXT = false
 
 [params]
   colorScheme = "fire"

@@ -6,4 +6,6 @@ main = "./src/index.ts"
 command = "chmod a+x build.sh && ./build.sh"
 
 [assets]
+binding = "ASSETS"
 directory = "./public"
+run_worker_first = true
