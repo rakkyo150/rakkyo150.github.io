@@ -41,6 +41,6 @@ Mod自体の人気を鑑みて、今後も継続的に更新する予定です�
 [^1]:追加されている機能について、CountersPlusから切り離す形で新たにModを制作したいとは考えています。
 [^2]:一応[EasyOffset](https://github.com/Reezonate/EasyOffset)が代替としてあります。EasyOffsetで対応できていない機能もあるので、更新したい気持ちはありますが、理解不能のバグが修正できず放置した経緯があります。
 [^3]:低スペックPCでBeat Saberをプレイしていた時期に自分のために作っていたModです。構造は単純なので、更新には強いはずですが、需要はなさそうなので優先度小にします。
-[^4]:[PredictStarNumberMod](https://github.com/rakkyo150/PredictStarNumberMod)に移行しました
-[^5]:[フォーク元からのフォーク](https://github.com/qe201020335/SongPlayHistory)が更新しています。ミス数記録機能のプルリクを送りたいとは考えてはいますが、内部の処理が大分変わってしまったので、実際に実現できるかは不明です。
+[^4]:[フォーク元からのフォーク](https://github.com/qe201020335/SongPlayHistory)が更新しています。ミス数記録機能のプルリクを送りたいとは考えてはいますが、内部の処理が大分変わってしまったので、実際に実現できるかは不明です。
+[^5]:[PredictStarNumberMod](https://github.com/rakkyo150/PredictStarNumberMod)に移行しました
 [^6]:代替Modとして[BeatSaber_NoteCutGuide](https://github.com/Loloppe/BeatSaber_NoteCutGuide)があります。
