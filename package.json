@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "wrangler": "wrangler",
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"local": "wrangler dev -c local_wrangler.toml"
+	},
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20251011.0",
+    "wrangler": "^4.43.0"
+  }
+}

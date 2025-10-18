@@ -1,0 +1,8 @@
+name = "rakkyo150"
+compatibility_date = "2025-10-18"
+
+[build]
+command = "chmod a+x build.sh && ./build.sh"
+
+[assets]
+directory = "./public"
