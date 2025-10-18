@@ -79,13 +79,6 @@ export default {
 		if (url.pathname.startsWith('/callback')) {
 			return handleCallback(url, env);
 		}
-    if (url.pathname.endsWith('/robots.txt')) {
-      return new Response( `User-agent: *\nDisallow: /`, {
-        headers: {
-          'Content-Type': 'text/plain',
-        }
-      })
-    }
     return env.ASSETS.fetch(request);
 	},
 };
