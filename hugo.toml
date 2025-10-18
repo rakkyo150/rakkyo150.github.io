@@ -2,13 +2,15 @@ baseURL = 'https://homepage.rakkyo150.workers.dev'
 languageCode = 'ja'
 title = 'rakkyo150のMod・ツールまとめ'
 theme = "blowfish"
+logo = "logo.png"
 
 [params]
   colorScheme = "fire"
 
 [params.author]
   name = "rakkyo150"
-  headline = "色々開発している人"
+  image = "https://avatars.githubusercontent.com/u/86054813?s=350&v=4"
+  headline = "BeatSaber関係を中心に色々開発している"
   links = [
     { x-twitter = "https://x.com/rakkyo150" },
     { github = "https://github.com/rakkyo150"}
@@ -17,3 +19,11 @@ theme = "blowfish"
 [params.article]
 showTableOfContents = true
 relatedContentLimit = 10
+showPagination = false
+
+[params.list]
+cardView = true
+
+[taxonomies]
+tag = "tags"
+series = "series"

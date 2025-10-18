@@ -20,16 +20,6 @@
   url = "https://github.com/rakkyo150"
   weight = 400
 
-[[subnavigation]]
-  name = "Mod"
-  pageRef = "tags/mod"
-  weight = 10
-
-[[subnavigation]]
-  name = "ツール"
-  pageRef = "tags/tool"
-  weight = 20
-
 [[footer]]
   name = "タグ"
   pageRef = "tags"
