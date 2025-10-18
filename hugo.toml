@@ -7,6 +7,8 @@ enableRobotsTXT = false
 
 [params]
   colorScheme = "fire"
+  enableSearch = true
+  enableCodeCopy = true
 
 [params.author]
   name = "rakkyo150"
@@ -21,6 +23,10 @@ enableRobotsTXT = false
 showTableOfContents = true
 relatedContentLimit = 10
 showPagination = false
+showReadingTime = false
+showTaxonomies = true 
+showDateUpdated = true
+showWordCount = false
 
 [params.list]
 cardView = true

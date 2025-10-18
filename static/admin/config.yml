@@ -15,6 +15,8 @@ collections:
     fields:
       - { label: 'タイトル', name: 'title', widget: 'string' }
       - { label: '日付', name: 'date', widget: 'datetime' }
+      - { label: '更新日', name: 'lastmod', widget: 'datetime' }
+      - { label: 'タグ', name: 'tags', widget: 'list' }
       - { label: '本文', name: 'body', widget: 'markdown' }
   - name: 'BeatSaber関係'
     label: 'BeatSaber関係'
@@ -24,6 +26,8 @@ collections:
     fields:
       - { label: 'タイトル', name: 'title', widget: 'string' }
       - { label: '日付', name: 'date', widget: 'datetime' }
+      - { label: '更新日', name: 'lastmod', widget: 'datetime' }
+      - { label: 'タグ', name: 'tags', widget: 'list' }
       - { label: '本文', name: 'body', widget: 'markdown' }
   - name: 'ツール'
     label: 'ツール'
@@ -32,5 +36,7 @@ collections:
       preview: true
     fields:
       - { label: 'タイトル', name: 'title', widget: 'string' }
-      - { label: '日付', name: 'date', widget: 'datetime' }
+      - { label: '作成日', name: 'date', widget: 'datetime' }
+      - { label: '更新日', name: 'lastmod', widget: 'datetime' }
+      - { label: 'タグ', name: 'tags', widget: 'list' }
       - { label: '本文', name: 'body', widget: 'markdown' }

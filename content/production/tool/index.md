@@ -3,6 +3,7 @@ title: "その他のツール"
 date: 2025-10-18T02:13:32+09:00
 series: ["制作物"]
 series_order: 2
+tags: ["UD-CO2S"]
 ---
 ## OsuNewBeatmapPackNotification2Discord
 
