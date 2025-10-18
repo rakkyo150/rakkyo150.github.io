@@ -5,11 +5,9 @@ tags: ["Mod", "BeatSaber"]
 ---
 "?"は不明、"〇"は問題なく動く、"△"は多分問題なさそう、"×"は現時点では動かないという意味です。  
 1.15以前はModに携わっていなかったので、すべてのMODについて動作するかは不明です。  
-優先度大は、Mod自体の人気を鑑みて、今後も継続的に更新する予定です。  
-優先度中は更新したい気持ちはあるものの、十分な余裕がある場合でないと更新できないと思います。  
-優先度小も更新したい気持ちはあるものの、更新難度の高さや類似Modがあるなどで、実際更新する可能性はかなり低いと思われるModです。
 
 ## 優先度大のMod
+Mod自体の人気を鑑みて、今後も継続的に更新する予定です。
 |MOD名|1.16|1.17|1.18|1.19|1.20|1.21|1.22|1.23|1.24|
 |:--|:--:|:--:|:--:|:--:|:--:|:--:|:---:|:---:|:---:|
 |[GetNearRankMod](https://github.com/rakkyo150/GetNearRankMod/releases)|?|?|〇|〇|〇|〇|〇|〇|〇|
@@ -19,6 +17,7 @@ tags: ["Mod", "BeatSaber"]
 |[BetterMissCounter](https://github.com/rakkyo150/BetterMissCounter/releases)|?|?|?|〇|〇|〇|〇|〇|△|
 
 ## 優先度中のMod
+更新したい気持ちはあるものの、十分な余裕がある場合でないと更新できないと思います。
 |MOD名|1.16|1.17|1.18|1.19|1.20|1.21|1.22|1.23|1.24|
 |:--|:--:|:--:|:--:|:--:|:--:|:--:|:---:|:---:|:---:|
 |[AccStandardDeviationCounter](https://github.com/rakkyo150/AccStandardDeviationCounter/releases)|〇|〇|〇|〇|〇|〇|〇|〇|△|
@@ -26,6 +25,7 @@ tags: ["Mod", "BeatSaber"]
 |[MissCountOnResults](https://github.com/rakkyo150/MissCountOnResults/releases)|?|〇|〇|〇|△|〇|〇|〇|〇|
 
 ## 優先度小のMod
+更新したい気持ちはあるものの、更新難度の高さや類似Modがあるなどで、実際更新する可能性はかなり低いと思われるModです。
 |MOD名|1.16|1.17|1.18|1.19|1.20|1.21|1.22|1.23|1.24|
 |:--|:--:|:--:|:--:|:--:|:--:|:--:|:---:|:---:|:---:|
 |[SaberTailor-Improved](https://github.com/rakkyo150/SaberTailor-Improved/releases)[^2]|〇|〇|〇|〇|〇|〇|〇|〇|△|
