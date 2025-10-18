@@ -3,7 +3,7 @@
     "wrangler": "wrangler",
 		"deploy": "wrangler deploy",
 		"dev": "wrangler dev",
-		"local": "wrangler dev -c local_wrangler.toml"
+		"local": "hugo --gc --minify && wrangler dev -c local_wrangler.toml"
 	},
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20251011.0",
