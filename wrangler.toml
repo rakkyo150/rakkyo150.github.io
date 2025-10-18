@@ -1,5 +1,6 @@
-name = "rakkyo150"
+name = "homepage"
 compatibility_date = "2025-10-18"
+main = "./src/index.ts"
 
 [build]
 command = "chmod a+x build.sh && ./build.sh"

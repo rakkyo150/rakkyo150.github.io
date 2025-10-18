@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://homepage.rakkyo150.workers.dev'
 languageCode = 'ja'
 title = 'rakkyo150のMod・ツールまとめ'
 theme = "blowfish"

@@ -1,0 +1,36 @@
+backend:
+  name: github
+  repo: rakkyo150/rakkyo150.github.io
+  branch: hugo
+  base_url: https://homepage.rakkyo150.workers.dev
+  auth_endpoint: /auth
+media_folder: static/uploads
+public_folder: /uploads
+collections:
+  - name: '対応表'
+    label: '対応表'
+    folder: 'content/compatible_table'
+    editor:
+      preview: true
+    fields:
+      - { label: 'タイトル', name: 'title', widget: 'string' }
+      - { label: '日付', name: 'date', widget: 'datetime' }
+      - { label: '本文', name: 'body', widget: 'markdown' }
+  - name: 'BeatSaber関係'
+    label: 'BeatSaber関係'
+    folder: 'content/production/BeatSaber'
+    editor:
+      preview: true
+    fields:
+      - { label: 'タイトル', name: 'title', widget: 'string' }
+      - { label: '日付', name: 'date', widget: 'datetime' }
+      - { label: '本文', name: 'body', widget: 'markdown' }
+  - name: 'ツール'
+    label: 'ツール'
+    folder: 'content/production/tool'
+    editor:
+      preview: true
+    fields:
+      - { label: 'タイトル', name: 'title', widget: 'string' }
+      - { label: '日付', name: 'date', widget: 'datetime' }
+      - { label: '本文', name: 'body', widget: 'markdown' }
