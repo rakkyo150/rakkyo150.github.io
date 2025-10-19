@@ -79,7 +79,7 @@ export default {
 		if (url.pathname.startsWith('/callback')) {
 			return handleCallback(url, env);
 		}
-    if (url.pathname === '/index.json') {
+    if (url.pathname.startsWith('/index.json')) {
       return env.ASSETS.fetch(new Request(`${url.origin}/index.json`, request));
     }
     return env.ASSETS.fetch(request);
