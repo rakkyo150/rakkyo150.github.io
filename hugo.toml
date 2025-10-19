@@ -11,6 +11,7 @@ capitalizeListTitles = false
   colorScheme = "fire"
   enableSearch = true
   enableCodeCopy = true
+  smartTOC = true
 
 [params.author]
   name = "rakkyo150"
