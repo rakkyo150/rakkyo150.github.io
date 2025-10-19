@@ -4,6 +4,8 @@ title = 'rakkyo150のMod・ツールまとめ'
 theme = "blowfish"
 logo = "logo.png"
 enableRobotsTXT = false
+# https://gohugo.io/getting-started/configuration/#capitalizelisttitles
+capitalizeListTitles = false
 
 [params]
   colorScheme = "fire"
