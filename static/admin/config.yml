@@ -43,7 +43,7 @@ collections:
   - name: '記事'
     label: '記事'
     folder: 'content/article'
-    slug: "{{slug}}/index"
+    slug: "{{slug}}"
     create: true
     editor:
       preview: true
