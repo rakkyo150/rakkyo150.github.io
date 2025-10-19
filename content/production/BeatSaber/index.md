@@ -78,7 +78,7 @@ PredictStarNumberによる星予測と実際の星予測の差ごとのプレイ
 ### PredictStarNumberHelper
 
 PredictStarNumberの予測のための学習済みモデルを定期的に作成しています  
-おまけでデータの簡単な解析結果も作成しています
+ランク譜面の簡単な解析もしています
 
 {{< github repo="rakkyo150/PredictStarNumberHelper" showThumbnail=false >}}
 
@@ -91,7 +91,7 @@ csv形式なのでexcelなどで見れます
 
 ### player_count_by_bs_version
 
-プレイヤーのBeat SaberのバージョンごとやHMDごとの分布を定期的に集計しています
+Beat SaberのバージョンごとやHMDごとなどのプレイヤーの分布を定期的に集計しています
 
 {{< github repo="rakkyo150/player_count_by_bs_version" showThumbnail=false >}}
 
@@ -125,7 +125,7 @@ ModAssistantで管理できないBeat SaberのModを管理するツール
 ### AccStandardDeviationCounter
 
 中心精度の標準偏差を表示するCountersPlusのカスタムカウンター  
-一番最初に作成したMODなので多少思い入れはあります
+一番最初に作成したMODなので多少思い入れはありますが、実用性はないです。
 
 ![AccStandardDeviationCounter](https://github.com/rakkyo150/AccStandardDeviationCounter/raw/master/Images/sample.jpg)
 
@@ -142,6 +142,8 @@ ScoreCounter,ProgressCounter,CutCounter,MissCounter,NoteCounter,NoteLeftCounter,
 {{< github repo="rakkyo150/CounterPlus-Improved" showThumbnail=false >}}
 
 ### SaberTailor-Improved
+
+改良部分は以下の通り。
 
 - セイバーの位置と角度とワールドオフセットのより細かな設定が可能に
 - セイバーの位置とワールドオフセットの上限を拡張
@@ -165,11 +167,17 @@ ScoreCounter,ProgressCounter,CutCounter,MissCounter,NoteCounter,NoteLeftCounter,
 
 旧EnhancedMissCounterの改良版
 
+![image](https://user-images.githubusercontent.com/45233053/153546888-6f96efc3-c32b-48f7-ac36-ffc8991ab48d.png)
+
+CountersPlusのMissCounterとの違いは以下の通り。
+
+- スコアセイバーとビートリーダーから取得した個人の最高ミス数を表示します
+- テキストと色をカスタマイズ可能
 - ブルームに対応
 - より細かな位置調整ができます
-  
+
 メタデータ変えちゃったので、プルリク出さずにこちらでリリースしてます  
-2025.10.19現在はフォーク元がリポジトリを削除してしまったようです
+2025.10.19現在はフォーク元がリポジトリを削除してしまったようで、私しかメンテしていません
 
 {{< github repo="rakkyo150/BetterMissCounter" showThumbnail=false >}}
 
@@ -202,7 +210,8 @@ BeatSaverでの検索結果をプレイリストにするGoogle Chromeの拡張�
 
 ### NotifySSRankChanged
 
-ScoreSaberの順位が変動した時にiOSで通知を出すスクリプト。
+ScoreSaberの順位が変動した時にiOSで通知を出すスクリプト。  
+iOS26にアプデしたのが原因かわからないが、通知来なくなった？
 
 {{< github repo="rakkyo150/NotifySSRankChanged" showThumbnail=false >}}
 
@@ -217,6 +226,7 @@ ScoreSaberの順位が変動した時にiOSで通知を出すスクリプト。
 
 ### BetterSongList-PredictStarNumber
 PredictStarNumberModに移行しました
+
 {{< github repo="rakkyo150/BetterSongList-PredictStarNumber" showThumbnail=false >}}
 
 ### BeatSaberCustomNotes-NoteTrail
