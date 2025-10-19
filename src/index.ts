@@ -76,7 +76,7 @@ export default {
 		if (url.pathname.startsWith('/auth')) {
 			return handleAuth(url, env);
 		}
-		if (url.pathname.startsWith('/callback')) {
+		if (url.pathname.startsWith('/api/callback')) {
 			return handleCallback(url, env);
 		}
     if (url.pathname.startsWith('/index.json')) {
