@@ -32,6 +32,7 @@ showWordCount = false
 
 [params.list]
 cardView = true
+groupByYear = false
 
 [taxonomies]
 tag = "tags"
