@@ -9,6 +9,11 @@
   weight = 15
 
 [[main]]
+  name = "記事"
+  pageRef = "article"
+  weight = 20
+
+[[main]]
   identifier = "twitter"
   pre = "x-twitter"
   url = "https://twitter.com/rakkyo150"
