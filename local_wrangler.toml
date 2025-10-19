@@ -1,6 +1,0 @@
-name = "homepage"
-compatibility_date = "2025-10-18"
-main = "./src/index.ts"
-
-[assets]
-directory = "./public"
