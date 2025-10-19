@@ -51,5 +51,8 @@ collections:
       - { label: 'タイトル', name: 'title', widget: 'string' }
       - { label: '日付', name: 'date', format: 'YYYY-MM-DDTHH:mm:ssZ', widget: 'datetime' }
       - { label: '更新日', name: 'lastmod', format: 'YYYY-MM-DDTHH:mm:ssZ', widget: 'datetime', required: false }
-      - { label: 'タグ', name: 'tags', widget: 'list' }
+      - { label: '読了時間の表示', name: 'showReadingTime', widget: "boolean", default: true}
+      - { label: 'シリーズ', name: 'series', widget: 'list', required: false }
+      - { label: 'シリーズ番号', name: 'series_order', widget: 'number', required: false }
+      - { label: 'タグ', name: 'tags', widget: 'list', required: false }
       - { label: '本文', name: 'body', widget: 'markdown' }
