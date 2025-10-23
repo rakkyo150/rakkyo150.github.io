@@ -11,6 +11,7 @@ capitalizeListTitles = false
   enableSearch = true
   enableCodeCopy = true
   smartTOC = true
+  defaultSocialImage = "banner.png"
 
 [params.author]
   name = "rakkyo150"
