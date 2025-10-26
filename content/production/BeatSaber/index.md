@@ -50,6 +50,8 @@ Second -- Learned Model --> PredictStarNumberExtension
 ブラウザ版  
 [こちら](https://predictstarnumber.onrender.com)から利用できます
 
+![example](https://github.com/rakkyo150/PredictStarNumber/blob/master/example.png?raw=true)
+
 {{< github repo="rakkyo150/PredictStarNumber" showThumbnail=false >}}
 
 ### [PredictStarNumberMod](https://github.com/rakkyo150/PredictStarNumberMod)
@@ -64,6 +66,10 @@ Mod版
 ### PredictStarNumberExtension
 
 Chrome拡張機能版
+
+![beatsaver](https://github.com/rakkyo150/PredictStarNumberExtension/blob/master/beatsaver.png?raw=true)
+
+![scoresaber](https://github.com/rakkyo150/PredictStarNumberExtension/blob/master/scoresaber.png?raw=true)
 
 {{< github repo="rakkyo150/PredictStarNumberExtension" showThumbnail=false >}}
 
@@ -185,9 +191,11 @@ CountersPlusのMissCounterとの違いは以下の通り。
 
 ### ConfirmPlaylistDifficulty
 
-プレイリストが指定している難易度を選んでいるかどうかをプレイボタンの色で判断できるようになるMod
+プレイリストの難易度を選んでいるかどうかについて、プレイボタンの色やクリックの可否を変更するMod
+ 
+![enable](https://github.com/rakkyo150/ConfirmPlaylistDifficulty/blob/master/enable.png?raw=true)
 
-![Gif](https://github.com/rakkyo150/ConfirmPlaylistDifficulty/blob/master/Gif/ConfirmPlaylistDifficulty.gif)
+![disable](https://github.com/rakkyo150/ConfirmPlaylistDifficulty/blob/master/disable.png?raw=true)
 
 {{< github repo="rakkyo150/ConfirmPlaylistDifficulty" showThumbnail=false >}}
 
@@ -210,8 +218,10 @@ BeatSaverでの検索結果をプレイリストにするGoogle Chromeの拡張�
 
 ### NotifySSRankChanged
 
-ScoreSaberの順位が変動した時にiOSで通知を出すスクリプト。  
-iOS26にアプデしたのが原因かわからないが、通知来なくなった？
+ScoreSaberの順位が変動した時にiOSで通知を出すショートカット。  
+~~文法的にはNotifyChangedSSRankの方が正しかったけど、面倒なので修正しません~~
+
+![通知](https://github.com/rakkyo150/NotifySSRankChanged/blob/master/Notification.png?raw=true)
 
 {{< github repo="rakkyo150/NotifySSRankChanged" showThumbnail=false >}}
 
